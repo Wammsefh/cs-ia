@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>左边图片，右边h1标签的文字</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .image {
+      max-width: 50%;
+    }
+
+    .text {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="image/1.jpg" alt="左边图片">
+    </div>
+    <div class="text">
+      <h1>为什么要做这个网站保护环境</h1>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ocean Theme UI</title>
+  <link rel="stylesheet" href="htmleaf-demo.css">
+  <style>
+    /* Custom Styles for Ocean Theme UI */
+    .main-menu {
+      background: #2fa8ec; /* Sky Blue */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+    }
+
+    .menu-item {
+      display: inline-block;
+      margin: 0.5em;
+      padding: 0.6em 1em;
+      border: 3px solid #fff;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      transition: opacity 0.3s;
+      position: relative;
+    }
+
+    .menu-item:hover {
+      opacity: 0.8;
+    }
+
+    .menu-item::before {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #fff;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform 0.3s;
+    }
+
+    .menu-item:hover::before {
+      transform: scaleX(1);
+    }
+
+    /* Directory Buttons */
+    .directory-buttons {
+      background: #494A5F; /* Dark Grey */
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+    }
+
+    .directory-buttons button {
+      display: inline-block;
+      margin: 0.5em;
+      padding: 0.6em 1em;
+      border: 3px solid #fff;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+
+    .directory-buttons button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-menu">
+    <div class="htmleaf-links">
+      <a href="#" class="menu-item">Home</a>
+      <a href="#" class="menu-item">About</a>
+      <a href="#" class="menu-item">Services</a>
+      <a href="#" class="menu-item">Contact</a>
+    </div>
+  </div>
+
+  <!-- Rest of your content goes here -->
+
+  <div class="directory-buttons">
+    <button>Button 1</button>
+    <button>Button 2</button>
+    <button>Button 3</button>
+    <button>Button 4</button>
+  </div>
+
+  <!-- Include any necessary JavaScript files here -->
+</body>
+</html>

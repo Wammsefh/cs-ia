@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/103/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+<script  src="js/index.js"></script>
+    <title>BlueHorizons</title>
+</head>
+<body>
+    <p class = "logo">BlueHorizons</p>
+    <nav>
+        <ul>
+            <li><a href="#">index</a></li>
+            
+            
+            <li><a href="5.html">介绍</a></li>
+            
+        </ul>
+    </nav>
+
+  
+    <div class="htmleaf-container">
+        
+        <!-- Loader Plugin reference from jq22 3d example Effects plugin
+            ====================================================== -->
+            <div id="uix-3d-slider--expParticle__loader" style="height: 5px; background: #A45CFB; position: absolute; z-index: 1; bottom: 0; left: 0; width: 0%;"></div>
+
+           <!-- Content 
+            ====================================================== -->
+           <div role="banner" class="uix-3d-slider--expParticle__wrapper">
+               <div class="uix-advanced-slider__outline uix-3d-slider--expParticle" 
+                  data-draggable="false"
+                  data-draggable-cursor="move"     
+                  data-auto="true"
+                  data-loop="true"
+                  data-speed="800" 
+                  data-timing="10000" 
+                  data-count-total="false"
+                  data-count-now="false"
+                  data-filter-texture="false"
+                  data-controls-pagination=".my-a-slider-pagination-2" 
+                  data-controls-arrows=".my-a-slider-arrows-2">
+                   <div class="uix-3d-slider--expParticle__inner">
+
+                       <div class="uix-3d-slider--expParticle__item">
+                           <img src="http://as5780136.free.wtbid204.top/image/l3.jpg" alt="Title 1" />
+
+                       </div>
+
+                       <div class="uix-3d-slider--expParticle__item">
+                           <img src="http://as5780136.free.wtbid204.top/image/l2.jpg" alt="Title 2" />
+                       </div>
+
+                       <div class="uix-3d-slider--expParticle__item">
+                           <img src="http://as5780136.free.wtbid204.top/image/l1.jpg" alt="Title 3" />
+                       </div> 
+
+
+
+                   </div>
+                  <!-- /.uix-3d-slider--expParticle__inner -->
+
+                </div>
+               <!-- /.uix-advanced-slider__outline -->  
+
+           </div>
+           <!-- /.uix-3d-slider--expParticle__wrapper -->   
+           <div class="uix-3d-slider--expParticle__pagination my-a-slider-pagination-2"></div>
+           <div class="uix-3d-slider--expParticle__arrows my-a-slider-arrows-2">
+                <a href="#" class="uix-3d-slider--expParticle__arrows--prev"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+                <a href="#" class="uix-3d-slider--expParticle__arrows--next"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+           </div>   
+        
+    </div>
+
+
+
+     <div style="margin-bottom :100px">
+        
+        <ul>
+            <li><a href="oceon_one.html">Title: Looking back to a clear past</a></li>
+            <li><a href="oceon_two.html">Title: Protecting Marine </a></li>
+            <li><a href="oceon_three.html">In the face of these challenges, </a></li>
+            <li><a href="game/picture.html">picture_game</a></li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+    
+
+    <footer>
+        <p> &copy; 2023 BlueHorizons</p>
+    </footer>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const slideshowContainer = document.querySelector('.slideshow-container');
+        let slideIndex = 0;
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.slide');
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+
+            const offset = -slideIndex * 800;
+            slideshowContainer.style.transform = `translateX(${offset}%)`;
+            slideIndex++;
+            setTimeout(showSlides, 3000); // 轮播间隔时间为3秒
+        }
+
+        showSlides();
+    </script>
+</body>
+</html>

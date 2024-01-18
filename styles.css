@@ -1,0 +1,136 @@
+.logo {
+
+
+ color: pink;
+
+ text-align: center;
+ padding-top: 25px;
+ padding-bottom: 25px;
+ font-size: 24px;
+ background-color: black;
+
+
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.login {
+    float: right;
+    width: 250px;
+    height: 200px;
+    /* 添加登录框的样式 */
+}
+
+.slider {
+        width: 74%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.slider {
+        width: 74%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow-container {
+    display: flex;
+    animation: slide 12s infinite; /* 调整动画持续时间为12秒，确保每张图片完全显示 */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide {
+    width: 97px;
+    height: 200px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-200px); }
+    50% { transform: translateX(-400px); }
+    75% { transform: translateX(-600px); }
+    100% { transform: translateX(-800px); } /* 根据图片数量调整最终位置 */
+}
