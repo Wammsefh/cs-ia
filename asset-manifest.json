@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bbff794.css",
-    "main.js": "/static/js/main.13702582.js",
+    "main.css": "/static/css/main.58b0afee.css",
+    "main.js": "/static/js/main.b91d3cf2.js",
     "static/js/787.e15598d6.chunk.js": "/static/js/787.e15598d6.chunk.js",
-    "static/media/carousel2.jpg": "/static/media/carousel2.134d12502e8aa1496938.jpg",
-    "static/media/carousel1.jpg": "/static/media/carousel1.c5c15ac892358e9f242c.jpg",
-    "static/media/carousel3.jpg": "/static/media/carousel3.9b7115b4dc814fb316ab.jpg",
+    "static/media/puzzle3.jpeg": "/static/media/puzzle3.537f47647ef79f394d4e.jpeg",
+    "static/media/carousel3.jpeg": "/static/media/carousel3.47e0e4832ccf5c1361b4.jpeg",
+    "static/media/carousel1.jpeg": "/static/media/carousel1.47d5a41d3e2301441f29.jpeg",
+    "static/media/puzzle.jpeg": "/static/media/puzzle.c0219e1a21f45ce6801b.jpeg",
+    "static/media/carousel2.jpeg": "/static/media/carousel2.c7badc1e532ebbd77f6e.jpeg",
+    "static/media/puzzle2.jpeg": "/static/media/puzzle2.68f2d6d7c8e33740d2cc.jpeg",
     "index.html": "/index.html",
-    "main.6bbff794.css.map": "/static/css/main.6bbff794.css.map",
-    "main.13702582.js.map": "/static/js/main.13702582.js.map",
+    "main.58b0afee.css.map": "/static/css/main.58b0afee.css.map",
+    "main.b91d3cf2.js.map": "/static/js/main.b91d3cf2.js.map",
     "787.e15598d6.chunk.js.map": "/static/js/787.e15598d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bbff794.css",
-    "static/js/main.13702582.js"
+    "static/css/main.58b0afee.css",
+    "static/js/main.b91d3cf2.js"
   ]
 }
